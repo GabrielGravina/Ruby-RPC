@@ -95,3 +95,13 @@ redis-cli #start redis server
 ```
 quit #exit cli (server)
 ```
+
+# Running on WSL
+```
+sudo service redis-server start
+redis-cli
+cd /examples
+ruby server.rb
+# Open another terminal and run
+ruby client.rb
+```
