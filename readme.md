@@ -85,6 +85,7 @@ Alternative [Ruby installation on WSL2 + Ubuntu 20.04](https://linuxtut.com/en/8
 
 ```
 gem install redis
+gem install redis-rpc
 
 ```
 
